@@ -1,0 +1,6 @@
+version: "3.8"
+
+services:
+  database:
+    ports:
+      - ${EXTERNAL_DB_PORT:-5932}:5432
